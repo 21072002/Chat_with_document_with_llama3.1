@@ -1,0 +1,122 @@
+Here's a complete `README.md` file that you can use for your project. Copy the content below and save it as `README.md` in your project directory.
+
+```markdown
+# LLAMA 3.1 Document chatbot
+
+This project demonstrates how to set up a virtual environment, install necessary libraries, configure a Groq API key, and run the main application.
+
+## Prerequisites
+
+- Python 3.8 or higher installed on your system.
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+
+### 2. Create a Virtual Environment
+
+Create a virtual environment to isolate your project’s dependencies:
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+- **On Windows:**
+
+    ```bash
+    .\venv\Scripts\activate
+    ```
+
+- **On macOS and Linux:**
+
+    ```bash
+    source venv/bin/activate
+    ```
+
+### 3. Install Required Libraries
+
+Install the required libraries using `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+If you don't have a `requirements.txt` file, you can create one by running:
+
+```bash
+pip freeze > requirements.txt
+```
+
+### 4. Set Up Your Groq API Key
+
+Set up your Groq API key by adding it to the virtual environment:
+
+- **On Windows:**
+
+    ```bash
+    setx GROQ_API_KEY "your-groq-api-key"
+    ```
+
+- **On macOS and Linux:**
+
+    ```bash
+    export GROQ_API_KEY="your-groq-api-key"
+    ```
+
+Alternatively, you can store the API key in a `.env` file in the root of your project and load it using the `python-dotenv` package:
+
+1. Install `python-dotenv`:
+
+    ```bash
+    pip install python-dotenv
+    ```
+
+2. Create a `.env` file:
+
+    ```plaintext
+    GROQ_API_KEY=your-groq-api-key
+    ```
+
+3. Load the environment variable in your Python code:
+
+    ```python
+    from dotenv import load_dotenv
+    import os
+
+    load_dotenv()  # Load environment variables from .env file
+    groq_api_key = os.getenv("GROQ_API_KEY")
+    ```
+
+### 5. Run the Application
+
+Run the `main.py` script:
+
+```bash
+python main.py
+```
+
+This command will execute your main application using the virtual environment with all necessary configurations set up.
+
+## Additional Information
+
+- Make sure the `GROQ_API_KEY` is securely managed and not exposed in public repositories.
+- If you encounter any issues, please refer to the troubleshooting section or contact the maintainers.
+
+```
+
+### Steps to Use This README
+
+1. **Save the above content as `README.md`** in your project directory.
+2. **Replace placeholder text** (`your-username`, `your-repository`, `your-groq-api-key`) with actual values specific to your project.
+3. **Ensure you have a `requirements.txt` file** listing all necessary libraries for your project.
+
+This `README.md` provides clear instructions for setting up the environment, installing dependencies, setting up the API key, and running the project. Let me know if you need any additional modifications!
