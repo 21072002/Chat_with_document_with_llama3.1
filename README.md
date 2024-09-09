@@ -1,6 +1,4 @@
-Here's a complete `README.md` file that you can use for your project. Copy the content below and save it as `README.md` in your project directory.
 
-```markdown
 # LLAMA 3.1 Document chatbot
 
 This project demonstrates how to set up a virtual environment, install necessary libraries, configure a Groq API key, and run the main application.
@@ -111,12 +109,9 @@ This command will execute your main application using the virtual environment wi
 - Make sure the `GROQ_API_KEY` is securely managed and not exposed in public repositories.
 - If you encounter any issues, please refer to the troubleshooting section or contact the maintainers.
 
-```
-
 ### Steps to Use This README
 
 1. **Save the above content as `README.md`** in your project directory.
 2. **Replace placeholder text** (`your-username`, `your-repository`, `your-groq-api-key`) with actual values specific to your project.
 3. **Ensure you have a `requirements.txt` file** listing all necessary libraries for your project.
 
-This `README.md` provides clear instructions for setting up the environment, installing dependencies, setting up the API key, and running the project. Let me know if you need any additional modifications!
