@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Llama 3.1 Document Chatbot
 
 This project features a chatbot built using Llama 3.1 for document-based interactions. It demonstrates how to set up a virtual environment, install required libraries, configure a Groq API key, and run the chatbot application.
@@ -112,7 +112,6 @@ This will execute the chatbot application using the virtual environment with all
 - For detailed instructions on how to interact with the Llama 3.1 chatbot or modify its behavior, refer to the `docs/` directory or the code comments in `main.py`.
 - If you encounter any issues, please refer to the troubleshooting section or contact the maintainers.
 
-```
 
 ### Steps to Use This README
 
