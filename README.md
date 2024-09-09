@@ -1,6 +1,3 @@
-
-
-
 # Llama 3.1 Document Chatbot
 
 This project features a chatbot built using Llama 3.1 for document-based interactions. It demonstrates how to set up a virtual environment, install required libraries, configure a Groq API key, and run the chatbot application.
