@@ -1,7 +1,6 @@
+# Llama 3.1 Document Chatbot
 
-# LLAMA 3.1 Document chatbot
-
-This project demonstrates how to set up a virtual environment, install necessary libraries, configure a Groq API key, and run the main application.
+This project features a chatbot built using Llama 3.1 for document-based interactions. It demonstrates how to set up a virtual environment, install required libraries, configure a Groq API key, and run the chatbot application.
 
 ## Prerequisites
 
@@ -16,7 +15,7 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
-```
+
 
 ### 2. Create a Virtual Environment
 
